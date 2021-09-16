@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Ubuntu&display=swap');
+:root{ 
+
+    --text: #444444 ;
+    --background:#FFFFE0 ;
+    --headings-font-family: 'Ubuntu', sans-serif;
+    --text-font-family: 'Noto Sans JP', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--text-font-family);
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: var(--headings-font-family);
+}
+.middle-container{
+    width: 75%;
+    margin: 4rem auto ;
+    text-align: center;
+}
+/*.retsept-box img{
+    /*float: left;
+    margin-right: 40rem;
+    width: 20%;
+    
+}*/
+.retsept-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.img-wrapper {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    text-align: right;
+
+}
+
+.img-wrapper img {
+    width: 30%;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.retsept-box ul {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    
+}
+
+.valmistamine-box{
+    margin: 0 auto;
+    width: 70%;
+    bottom: 20%;
+    font-size: 110%;
+    text-align: left;
+    
+}
+
+.copyright{
+
+
+    text-align: center;
+}
+h2{
+    font-family: var(--text);
+    color: var(--text);
+    font-size: 2rem;
+}
